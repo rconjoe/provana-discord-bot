@@ -1,0 +1,32 @@
+{
+  "name": "pv-admin-bot",
+  "version": "0.0.1",
+  "description": "proto handles disputes for pv.gg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/provana-developers/pv-admin-bot.git"
+  },
+  "author": "joe@provana.gg",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/provana-developers/pv-admin-bot/issues"
+  },
+  "homepage": "https://github.com/provana-developers/pv-admin-bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "dayjs": "^1.10.7",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0",
+    "firebase": "^8.10.0",
+    "ioredis": "^4.27.11"
+  },
+  "volta": {
+    "node": "16.11.0"
+  }
+}
