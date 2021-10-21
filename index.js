@@ -1,13 +1,6 @@
 require('dotenv').config()
-const {
-  Client,
-  Intents,
-  MessageActionRow,
-  MessageButton,
-  MessageSelectMenu
-} = require('discord.js')
+const { Client, Intents } = require('discord.js')
 const firebase = require('./lib/firebase')
-const redis = require('./lib/redis')
 const registerCommands = require('./lib/registerCommands')
 const commands = require('./lib/interactions/commandHandler')
 const button = require('./lib/interactions/button')
