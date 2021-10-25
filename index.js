@@ -13,7 +13,7 @@ const bot = new Client({
 bot.on('ready', async () => {
   console.log(`\n ${bot.user.tag} ready. Logging into Provana.GG...`)
   await firebase.login()
-  const guild = bot.guilds.cache.get('630611816048885808')
+  const guild = bot.guilds.cache.get(process.env.GUILD_ID)
   await registerCommands.default(guild)
 })
 
